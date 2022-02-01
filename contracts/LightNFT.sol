@@ -47,7 +47,7 @@ contract LightNFT is LilOwnable, ERC721 {
         string memory _nonRevealedURI,
         bytes32 _initMerkleRoot,
         address[4] memory _contributorAddresses
-    ) payable ERC721("Poker Dogs Club", "PDGC") {
+    ) payable ERC721("LightNFT", "LNFT") {
         nonRevealedURI = _nonRevealedURI;
         _merkleRoot = _initMerkleRoot;
 
